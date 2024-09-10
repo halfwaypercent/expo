@@ -41,26 +41,24 @@ nav ul li a {
     border: 1px solid #ccc;
 }
 
-.icons a img {
-    width: 25px;
-    margin-left: 20px;
-}
+
 
 
 .about{
     margin-left: 50%;
-    margin-top: 400px;
+    
 }
 .about h1 {
     font-size: 2.5em;
     color: #006837;
+    gap: 50px;
 }
 
 .about p {
     max-width: 600px;
-    margin: 20px auto;
     font-size: 1.2em;
     color: #333;
+    gap: 50px;
 }
 
 .team {
@@ -69,9 +67,7 @@ nav ul li a {
   
 }
 
-.team-member {
-    text-align: center;
-}
+
 
 .team-member img {
     
@@ -81,7 +77,7 @@ nav ul li a {
 }
 
 .team-member p {
-    margin-top: 10px;
+   
     font-weight: bold;
 }
 
