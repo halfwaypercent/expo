@@ -1,39 +1,98 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
-body{
-    background-color: #d9d9d9;
-    color: black;
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
 }
 
-.cabecalho{
+header {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    
+    padding: 10px 50px;
+    background-color: #e5e5e5;
 }
 
+.logo img {
+    width: 120px;
+}
 
-.menu_lista{
-    list-style: none;
+nav ul {
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-
-    padding-top: 1%;
-    padding-left: 15%;
+    list-style: none;
+    gap: 30px;
 }
 
-.menu_lista_itens{
-
-    padding: 10px;
-    border-radius: 10px;
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
 }
 
+.search input {
+    padding: 5px;
+    width: 200px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.icons a img {
+    width: 25px;
+    margin-left: 20px;
+}
+
+
+.about{
+    margin-left: 50%;
+    margin-top: 400px;
+}
+.about h1 {
+    font-size: 2.5em;
+    color: #006837;
+}
+
+.about p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.team {
+    margin-left: 10%;
+   
+  
+}
+
+.team-member {
+    text-align: center;
+}
+
+.team-member img {
+    
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-member p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #006837;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media a img {
+    width: 30px;
+    margin: 0 10px;
+}
