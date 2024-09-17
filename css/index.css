@@ -63,6 +63,7 @@ nav ul li a {
     font-size: 1.2em;
     color: #333;
     gap: 50px;
+    text-align: justify;
 }
 
 .team {
@@ -134,10 +135,16 @@ nav ul li a {
     padding-bottom: 2%;
     font-size: 18px;
     margin-top: 20%;
+
 }
 
 .rodape_lista{
     list-style: none;
+    color: #ffffff;
+    
+}
+.rodape_lista a{
+    text-decoration: none;
     color: #ffffff;
 }
 
