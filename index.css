@@ -17,9 +17,12 @@ header {
     padding: 10px 50px;
     background-color: #e5e5e5;
 }
+.fa{
+   width: 30px;
+}
 
 .logo img {
-    width: 120px;
+    width: 150px;
 }
 
 nav ul {
@@ -143,8 +146,9 @@ nav ul li a {
     flex-direction: row;
     gap: 10px;
     font-size: 25px;
-    
-   
 }
-
-
+   
+.fa-brands{
+    color: #ffffff;
+    text-decoration: none;
+}
