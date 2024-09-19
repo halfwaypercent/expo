@@ -15,32 +15,40 @@ body {
 
 .container {
     display: flex;
-    width: 80%;
-    max-width: 1000px;
-    background-color: white;
-    border-radius: 10px;
+    width: 100%;
+    background-color:#006837;
     overflow: hidden;
 }
 
-.left-section {
+/* Dividindo os containers */
+.left-container, .right-container {
     flex: 1;
+}
+
+.left-section {
     background-color: #e5e5e5;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    width: 500px;
+    height: 100%;
+    border-top-right-radius: 400px;
+    border-bottom-right-radius: 400px;
+    
 }
 
 .left-section img {
-    max-width: 80%;
+    max-width: 90%;
     height: auto;
+    
 }
 
 .right-section {
-    flex: 1;
     padding: 40px;
     background-color: #006837;
     color: white;
+    
 }
 
 .right-section h2 {
