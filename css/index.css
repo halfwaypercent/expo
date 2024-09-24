@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    display: none;
+  }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f3f3f3;
@@ -43,9 +47,6 @@ nav ul li a {
     border-radius: 20px;
     border: 1px solid #ccc;
 }
-
-
-
 
 .about{
     margin-left: 50%;
