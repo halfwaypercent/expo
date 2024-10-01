@@ -224,5 +224,5 @@ nav ul li a {
   
   .item-content a[data-social="x"] .filled,
   .item-content a[data-social="x"] .tooltip::before {
-    background: black;
+    background: rgb(0, 0, 0);
   }
