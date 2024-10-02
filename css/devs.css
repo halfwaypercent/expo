@@ -222,7 +222,7 @@ nav ul li a {
     background: #1877F2;
   }
   
-  .item-content a[data-social="x"] .filled,
-  .item-content a[data-social="x"] .tooltip::before {
-    background: rgb(0, 0, 0);
+  .item-content a[data-social="email"] .filled,
+  .item-content a[data-social="email"] .tooltip::before {
+    background: red;
   }
