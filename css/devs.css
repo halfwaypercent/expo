@@ -226,3 +226,20 @@ nav ul li a {
   .item-content a[data-social="email"] .tooltip::before {
     background: red;
   }
+  .item-content a[data-social="twitch"] .filled,
+  .item-content a[data-social="twitch"] .tooltip::before {
+    background: #9146FF;
+  }
+  .item-content a[data-social="linkedin"] .filled,
+  .item-content a[data-social="linkedin"] .tooltip::before {
+    background: #0A66C2;
+  }
+  .item-content a[data-social="threads"] .filled,
+  .item-content a[data-social="threads"] .tooltip::before {
+    background: #000000;
+  }
+  .item-content a[data-social="bluesky"] .filled,
+  .item-content a[data-social="bluesky"] .tooltip::before {
+    background: #0285FF;
+  }
+  
