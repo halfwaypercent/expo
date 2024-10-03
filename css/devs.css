@@ -242,4 +242,11 @@ nav ul li a {
   .item-content a[data-social="bluesky"] .tooltip::before {
     background: #0285FF;
   }
-  
+  .item-content a[data-social="git"] .filled,
+  .item-content a[data-social="git"] .tooltip::before {
+    background: #000000;
+  }
+  .item-content a[data-social="ttk"] .filled,
+  .item-content a[data-social="ttk"] .tooltip::before {
+    background: #000000;
+  }
